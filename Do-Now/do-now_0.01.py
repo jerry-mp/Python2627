@@ -14,13 +14,13 @@
 
 #Task 2: Adding to this file!
 #In the line below, let's type a line of code to have our program run!
-
+# print('hello world')
 #What did your line of code output in the command prompt?
 #Welcome to the world of coding!
 
 #Task 3: What is an error?
 #On the next line, uncomment the line of code and run the program.
-# print(hello, world!)
+print('hello, world!')
 #What happend? What kind of error did the console give you?
 
 #Takeaways for today
