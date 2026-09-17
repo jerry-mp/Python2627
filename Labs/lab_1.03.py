@@ -23,6 +23,4 @@
 #Can you add a new input that takes in a number that you can use to replicate a string
 #in the genie's final output that many times?
 
-a = input('What do you wish for? ')
-x = int(input('How many of those do you want? '))
-print('You wished for ' + (x * (a + ' ')))
+#Start Lab below this line

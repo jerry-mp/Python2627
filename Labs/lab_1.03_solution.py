@@ -1,0 +1,36 @@
+#Lab 1 - Magic Genie
+
+#Objective: The point of this program is to practice the use of variables and inputs
+
+#Specifications
+#Have the program introduce itself
+#Have the program ask for three separate wishes
+#Print all three wishes back to the user at the same time
+
+#Requirements
+#Use variables to store user inputs
+#Use the least amount of variables as possible
+#HINT: is there anything the genie asks over and over again?
+
+#Sample Output in the Console
+#I am a genie. You have three wishes
+#What would you like to wish for? cats
+#What would you like to wish for? kittens
+#What would you like to wish for? more cats
+#Your wishes are cats, kittens, and more cats!
+
+#Sample Solution to Requirements
+print('I am a genie. You have three wishes')
+wish1 = input('What would you like to wish for? ')
+wish2 = input('What would you like to wish for? ')
+wish3 = input('What would you like to wish for? ')
+print('You wished for a ' + wish1 + wish2 + wish3)
+
+#Bonus
+#Can you add a new input that takes in a number that you can use to replicate a string
+#in the genie's final output that many times?
+
+#Sample Solution to Bonus
+a = input('What do you wish for? ')
+x = int(input('How many of those do you want? '))
+print('You wished for ' + (x * (a + ' ')))
