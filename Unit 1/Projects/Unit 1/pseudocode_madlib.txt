@@ -1,0 +1,32 @@
+Pseudocode - MadLib
+
+In this document, you will practice writing some pseudocode.
+
+What is pseudocode?
+It is a plain-English, human-readable description of a computer program's logic or algorithm
+
+Why do we do it?
+1. It helps us plan what we want to do! It is a draft in non-code
+2. It helps us focus on the logic and steps we hope to accomplish
+3. Others can read your pseudocode and get a good gist of what you are aiming at
+4. You can do this practice for any coding language!
+
+Example
+Aim: I want my program to add or subtract numbers based on user inputs
+Needs: variables, if/then options, casting (string to int), print statements, inputs
+print: welcome to...
+number1: enter a number (input)
+number2: enter another number (input)
+operation: would you like to add or subtract? (input)
+IF operation is add then:
+	number1 + number2
+ELSE:
+	number1 - number2
+print: your answer is...
+
+MadLib Pseudocode
+Now is your chance to try some pseudocode!
+Requirements:
+1. Need at least 10 fill-in-the-blanks; they can nouns, proper nouns, amount, adjectives, adverbs
+2. You need a sample story that you are going to place your blanks within
+3. Need to be able to fill in the blanks with your inputs
