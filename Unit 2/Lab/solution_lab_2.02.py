@@ -74,3 +74,15 @@
 # user_pass = input('Do you have a frequent rider pass? ')
 # print((user_height >= height and user_money >= cost) or (user_height != height and user_age >= loophole and user_money  >= cost) or (user_height >= height and user_money >= 2 and user_pass == rider_pass) or (user_height != height and user_money >= 2 and user_pass == rider_pass and user_age >= loophole))
 #booleans suck without conditionals!!!!
+
+
+## Solution B with helper variables
+# height = int(input('How tall are you, in inches? '))
+# age = int(input('How old are you? '))
+# money = int(input('How many quarters do you have? '))
+# rider_pass = input('Do you have a frequent rider pass? ')
+
+# is_height = height > 50 or age > 18
+# is_money = money >= 4 or (money >=2 and rider_pass == 'yes')
+
+# print(is_height and is_money)
