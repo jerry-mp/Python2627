@@ -73,4 +73,4 @@
 # user_age = int(input('How old are you? '))
 # user_pass = input('Do you have a frequent rider pass? ')
 # print((user_height >= height and user_money >= cost) or (user_height != height and user_age >= loophole and user_money  >= cost) or (user_height >= height and user_money >= 2 and user_pass == rider_pass) or (user_height != height and user_money >= 2 and user_pass == rider_pass and user_age >= loophole))
-#booleans suck without conditionals!!!
+#booleans suck without conditionals!!!!
