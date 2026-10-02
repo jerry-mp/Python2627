@@ -86,3 +86,13 @@
 # is_money = money >= 4 or (money >=2 and rider_pass == 'yes')
 
 # print(is_height and is_money)
+
+
+
+## Solution C without helper variables
+# height = int(input('How tall are you, in inches? '))
+# age = int(input('How old are you? '))
+# money = int(input('How many quarters do you have? '))
+# rider_pass = input('Do you have a frequent rider pass? ')
+
+# print((height > 50 or age > 18) and (money >= 4 or (money >=2 and rider_pass == 'yes')))
