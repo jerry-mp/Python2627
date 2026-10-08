@@ -43,6 +43,7 @@
 
 #Task 3: Create!
 #In the space below, your job is to make a program that analyzes information about a triangle.
+#Hint: Consider doing some pseudocode to help plan out what your program will need to do!
 #The program will be able to do the following:
 #1. The program will ask for 3 side lengths from the user
 #2. The program will determine, based on the side lengths, what kind of triangle it is (scalene, isosceles, equilateral)
