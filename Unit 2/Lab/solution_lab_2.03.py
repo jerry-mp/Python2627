@@ -21,3 +21,16 @@ if a + b >= c:
     print(f'The perimeter of your triangle is {perimeter}')
 else:
     print('You don\'t have a triangle')
+
+a = 3
+b = 4
+c = 5
+
+if not ((a + b > c) and (b + c > a) and (a + c > b)):
+    print('not a triangle')
+elif a == b == c:
+    print('equal')
+elif a == b or a == c or b == c:
+    print('isosceles')
+else:
+    print('scalene')
