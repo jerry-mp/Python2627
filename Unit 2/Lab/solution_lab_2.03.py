@@ -31,3 +31,15 @@ elif a == b or a == c or b == c:
     print('isosceles')
 else:
     print('scalene')
+
+# Solution C:
+is_triangle = (a + b > c) and (b + c > a) and (a + c > b)
+
+if not is_triangle:
+    print('not a triangle')
+elif a == b == c:
+    print('equal')
+elif a == b or a == c or b == c:
+    print('isosceles')
+else:
+    print('scalene')
