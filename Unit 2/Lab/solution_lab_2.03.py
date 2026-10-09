@@ -22,10 +22,7 @@ if a + b >= c:
 else:
     print('You don\'t have a triangle')
 
-a = 3
-b = 4
-c = 5
-
+# Solution B:
 if not ((a + b > c) and (b + c > a) and (a + c > b)):
     print('not a triangle')
 elif a == b == c:
