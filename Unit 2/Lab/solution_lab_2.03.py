@@ -43,3 +43,25 @@ if lengths[0] + lengths[1] >= lengths[2]:
     print(f'The area of your triangle is {area}')
 else:
     print('You don\'t have a triangle')
+
+# Solution B:
+if not ((a + b > c) and (b + c > a) and (a + c > b)):
+    print('not a triangle')
+elif a == b == c:
+    print('equal')
+elif a == b or a == c or b == c:
+    print('isosceles')
+else:
+    print('scalene')
+
+# Solution C:
+is_triangle = (a + b > c) and (b + c > a) and (a + c > b)
+
+if not is_triangle:
+    print('not a triangle')
+elif a == b == c:
+    print('equal')
+elif a == b or a == c or b == c:
+    print('isosceles')
+else:
+    print('scalene')
