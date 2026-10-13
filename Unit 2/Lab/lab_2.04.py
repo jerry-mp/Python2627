@@ -20,11 +20,3 @@
 #Congrats! You won a new car!
 
 #Hint: You should review concepts of how lists are indexed to ensure you don't jump out of bounds on this one!
-
-#BONUS!
-#Create a food quiz using lists and indexes
-#Requirements:
-#1. A list that contains 6 different foods
-#2. Ask the user 5-8 general questions to find out what their favorite food is out of the list of foods
-#3. Update the score for each food item after each question is asked
-#4. At the end, print out the user's favorite food based on the score in the list
