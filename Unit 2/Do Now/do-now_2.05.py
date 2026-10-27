@@ -9,22 +9,28 @@ b_list = []
 
 #Example 1
 #Run the next three lines of code.
-#b_list = a_list[0:2]
-#print(a_list)
-#print(b_list)
+# b_list = a_list[0:2]
+# print(a_list)
+# print(b_list)
+# print(a_list[:3])
+# print(a_list[2:])
+# print(a_list[1:])
 #What happened?
 
 #Example 2
 #Run the next two lines of code
-#a_list.remove('First item')
-#print(a_list)
+# a_list.remove('First item')
+# print(a_list)
+# a_list.remove(a_list[0])
+# print(a_list)
 #What happened?
 
 #Example 3
 #Run the next three lines of code
-#popped_value = a_list.pop()
-#print(a_list)
-#print(popped_value)
+popped_value = a_list.pop()
+a_list.pop()
+print(a_list)
+print(popped_value)
 #What happened?
 
 #Example 4
