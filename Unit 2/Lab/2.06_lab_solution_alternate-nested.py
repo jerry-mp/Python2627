@@ -6,10 +6,10 @@ board = [
 
 print('Welcome to Tic Tac Toe! Here is the current board:')
 
-game = True
 turn = 'X'
+turns = 0
 
-while game:
+while turns < 9:
     print(board[0])
     print(board[1])
     print(board[2])
@@ -27,6 +27,8 @@ while game:
                 turn = 'O'
             else:
                 turn = 'X'
+
+            turns += 1
         else:
             print('That space is already taken')
     else:
