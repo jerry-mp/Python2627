@@ -13,3 +13,7 @@
 #Hint: you will need to prevent the second user from placing their X or their O in the same place the first player placed their X or their O!
 
 tictactoe = []
+player_x = int(input('Enter a number between 1-9: '))
+if player_x not in range(1,10):
+    print('Number not allowed')
+print(bin(73))

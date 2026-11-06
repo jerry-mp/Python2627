@@ -27,18 +27,25 @@ b_list = []
 
 #Example 3
 #Run the next three lines of code
-popped_value = a_list.pop()
-a_list.pop()
-print(a_list)
-print(popped_value)
+# popped_value = a_list.pop()
+# a_list.pop()
+# print(a_list)
+# print(popped_value)
+# a_list.pop(0)
+# print(a_list)
 #What happened?
 
 #Example 4
 #Run the next three lines of code
-#b_list = a_list + ['Third item]
-#print(a_list)
-#print(b_list)
+# b_list = a_list + 'Third item'
+a_list.append('Third item')
+print(a_list)
+print(b_list)
 #What happened?
+
+name = 'Jerry'
+print(len(name))
+print(str(list(name).pop()))
 
 #Example 5
 #Create a new list in the space below, then follow the directions given in class
